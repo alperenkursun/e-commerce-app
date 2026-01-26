@@ -20,7 +20,7 @@ const Home = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get('https://YOUR_MOCKAPI_URL/products')
+    axios.get('https://69655613e8ce952ce1f4d6ba.mockapi.io/products')
       .then(res => {
         setProducts(res.data);
         setLoading(false);
